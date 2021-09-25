@@ -16,9 +16,6 @@ public class Arrey_Vassiljev {
        int[] a = new int[20];
        Random random = new Random();
        int sum=0;
-       int c=0;
-       int z = 21;
-       int b = 2;
        for(int i=0;i <a.length;i++){
           a[i] = random.nextInt(100);
          
@@ -34,9 +31,9 @@ public class Arrey_Vassiljev {
         //}
         for (int i = 0; i < a.length; ++i){
             sum += a[i];
-        }
+        }sss
         //System.out.println(sum);
-        sum = sum -(a[0]+a[19]);
+        sum = (sum -(a[0]+a[19]))/20;
         System.out.println("Среднее арифметическое элементов массива без учета минимального и максимального элемента: "+sum);
             
         }
